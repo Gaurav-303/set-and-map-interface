@@ -4,7 +4,7 @@ import java.util.*;
 
 public class FrequencyCounter {
     public static void main(String[] args) {
-        String input = "programming";  // you can take user input too
+        String input = "programming";
         Map<Character, Integer> freqMap = new HashMap<>();
 
         for (char ch : input.toCharArray()) {
